@@ -11,7 +11,7 @@ def is_prime(n):
     if n!=1:
         return all(n % i for i in range(2, n))
     else:
-        print "False"
+        return bool(False)
 
 # Tests
 # is_prime(2033) == False
